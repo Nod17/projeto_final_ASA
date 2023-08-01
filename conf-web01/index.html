@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0f0f0f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+        }
+
+        nav li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #05e244;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background-color: #08bde2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo do Portal Web">
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <p><a href="/app2">Intranet</a></p>
+                <p><a href="/app3">Email</a></p>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Notícia Destaque</h2>
+                <p>"Nosso trabalho é nos conectar com pessoas para interagir com elas de uma maneira que você as deixe melhor do que encontrou."</p>
+            </section>
+
+            <section>
+                <h2>Eventos</h2>
+                <ul>
+                    <li>Evento 1 - Data</li>
+                    <li>Evento 2 - Data</li>
+                    <li>Evento 3 - Data</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Meu Portal Web - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
